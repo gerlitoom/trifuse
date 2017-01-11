@@ -112,7 +112,7 @@
 			</div>
 			<div id="right">
 				<a href="signup.php" class="button button1">Sign up</a>
-				<a href="login.php" class="button button1">Login</a>
+				<a href="data.php" class="button button1">Login</a>
 			</div>
 
 		</div>

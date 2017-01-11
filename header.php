@@ -123,7 +123,7 @@
 					<li class="dropdown">
 						<a href="javascript:void(0)" class="dropbtn">Pictures</a>
 						<div class="dropdown-content">
-							<a href="#">Animals</a>
+							<a href="test.php">Animals</a>
 							<a href="pictures_arts.php">Art</a>
 							<a href="pictures_nature.php">Nature</a>
 						</div>

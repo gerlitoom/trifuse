@@ -7,8 +7,13 @@
 		
 	}
 	
+	if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
+		echo "Welcome to the member's area, " . $_SESSION['username'] . "!";
+	} else {
+		echo "Please log in first to see this page.";
+	}
+	
 	if (isset($_GET["logout"])) {
-		
 		session_destroy();
 		header("Location: login.php");
 		exit();
@@ -27,6 +32,7 @@
 ?>
 
 <?php require("../header.php"); ?>
+
 <div class="container">
 	<?=$msg;?>
 
